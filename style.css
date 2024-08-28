@@ -1,0 +1,109 @@
+
+:root{
+    --color-primario:#D6EFD8;
+    --color-secundario:#80AF81;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    background: var(--color-primario);
+    font-family: 'Open+Sans:ital';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 15px;
+    width: 15;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border: none;
+    color: var(--color-secundario);
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{
+    color: var(--color-secundario);
+}
+.text-area:focus{
+    outline: none;
+    border-radius: 24px;
+}
+.text-area-mensaje{
+    background: white;
+    background-image: url("/Img/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color:var(--color-secundario);
+    margin-top: 98px;
+    margin-left: 20px;
+    padding-left: 20px;
+    position: fixed;
+
+}
+.text-area-mensaje:focus{
+    outline: none;
+    background-position: center;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-encriptar{
+    background-color: var(--color-secundario);
+    border: 1px solid var(--color-secundario);
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-desencriptar{
+    background-color: white;
+    border: 1px solid var(--color-secundario);
+    border-radius: 24px;
+    color:var(--color-secundario);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-copiar{
+    border: 1px solid var(--color-secundario);
+    border-radius: 24px;
+    color:var(--color-secundario);
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 420px;
+    position: absolute;
+    width: 200px;
+}
+.Informacion{
+    color: #495057;
+    font-size: 18px;
+}
+.footer{
+    background-color:var(--color-primario);
+    padding: 5px;
+    color: #495057;
+    text-align: center;
+    font-family:'Open+Sans:ital';
+    font-size: 5px;
+
+ }
